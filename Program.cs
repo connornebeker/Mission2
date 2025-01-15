@@ -3,6 +3,7 @@
 // IS 413 Section 002
 // Program that simulates a dice roll and track the number of rolls for each number
 
+using System;
 internal class Program
 {
     private static void Main(string[] args)
@@ -12,7 +13,7 @@ internal class Program
         //Input reader, casting the input to an integer
         int rollNum = int.Parse(Console.ReadLine());
         
-        //Calls the Rolltime function, passing it the parameter that the user input
+        //Calls the Rolltime method, passing it the parameter that the user input
         RollTime(rollNum);
     }
     
